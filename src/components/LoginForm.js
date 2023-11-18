@@ -15,7 +15,7 @@ const LoginForm = ({setLoggedIn}) => {
     event.preventDefault();
     toast.success("Use Logged In");
     setLoggedIn(true);
-    
+    navigator("/dashboard");
   }
   const [show1, setShow1] = useState(false);
   const [FormData, setFormData] = useState({
